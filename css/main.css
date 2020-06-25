@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web);
+/* line 81, ../scss/partials/_mixins.scss */
+a {
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* line 11, ../scss/main.scss */
+* html body {
+  font-size: 125%;
+}
+
+/* line 16, ../scss/main.scss */
+.error, .critical-error {
+  color: red;
+}
+
+/* line 20, ../scss/main.scss */
+.critical-error {
+  bottom: 1px solid red;
+  font-weight: bold;
+}
+
+/* line 26, ../scss/main.scss */
+body {
+  font-family: "Alegreya Sans", Arial, sans-serif;
+  text-align: justify;
+  font-size: 1.125em;
+  color: #fff;
+  background-color: #22222a;
+}
+/* line 33, ../scss/main.scss */
+body li {
+  list-style-type: none;
+}
+@media only screen and (max-width: 960px) {
+  /* line 26, ../scss/main.scss */
+  body {
+    font-size: 125%;
+  }
+}
+
+/* line 42, ../scss/main.scss */
+h1, h2, h3, h4 {
+  font-family: "Titillium Web", Georgia, serif;
+}
+
+/* line 46, ../scss/main.scss */
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* line 50, ../scss/main.scss */
+p {
+  font-family: "Alegreya Sans", Arial, sans-serif;
+}
+
+/* line 54, ../scss/main.scss */
+a {
+  color: #c24721;
+}
+/* line 57, ../scss/main.scss */
+a:hover {
+  color: #812f16;
+}
+
+/* line 62, ../scss/main.scss */
+.sub-title {
+  font-style: italic;
+}
+
+/* line 66, ../scss/main.scss */
+.sub-title {
+  font-size: 1.25em;
+}
+
+/* line 72, ../scss/main.scss */
+#header {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -moz-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  -webkit-box-shadow: 2px 0px 4px #999, 1px 1px 6px #c24721;
+  height: 60px;
+  background-color: #42424a;
+}
+/* line 80, ../scss/main.scss */
+#header #main-menu li {
+  display: inline;
+}
+/* line 84, ../scss/main.scss */
+#header #main-menu a {
+  color: white;
+  padding: 6px 8px;
+  border-bottom: 1px solid rgba(254, 254, 254, 0);
+  transition: border-bottom 0.5s;
+  transition-timing-function: ease-in-out;
+}
+/* line 91, ../scss/main.scss */
+#header #main-menu a:hover {
+  border-bottom: 1px solid #fefefe;
+}
+
+/* line 98, ../scss/main.scss */
+#main {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 960px) {
+  /* line 98, ../scss/main.scss */
+  #main {
+    width: auto;
+    max-width: 960px;
+  }
+}
+/* line 107, ../scss/main.scss */
+#main #content {
+  float: left;
+  width: 69.75%;
+}
+/* line 112, ../scss/main.scss */
+#main #sidebar {
+  float: left;
+  width: 23.25%;
+}
+/* line 116, ../scss/main.scss */
+#main #sidebar img {
+  display: block;
+  float: right;
+  width: 75%;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin: 1.25em 0 0 3.125em;
+  padding: 0.625em;
+}
+/* line 126, ../scss/main.scss */
+#main #sidebar li {
+  list-style-type: none;
+  padding: 1em 1.25em;
+  border-bottom: 1px dashed #999;
+}
+/* line 131, ../scss/main.scss */
+#main #sidebar li:hover {
+  background-color: #efefef;
+}
